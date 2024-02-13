@@ -108,7 +108,7 @@ int Unit::heal(){
     
     hp += healing;
     
-    return healing;
+    return healing; //
     
 }
 

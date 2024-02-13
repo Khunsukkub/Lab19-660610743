@@ -9,7 +9,7 @@ int main(){
 	char player_action = '\0',monster_action = '\0';
 	int p = 0, m = 0;
 	while(true){
-		mons.newTurn();	
+		mons.newTurn();	//
 		hero.newTurn();			
 		mons.showStatus();
 		drawScene(player_action,p,monster_action,m);
